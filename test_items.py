@@ -10,6 +10,6 @@ class TestCase:
         time.sleep(5)
 
         button_text = browser.find_elements(
-            By.CSS_SELECTOR, ".btn.btn-lg.btn-primary.btn-add-to-basket1"
+            By.CSS_SELECTOR, ".btn.btn-lg.btn-primary.btn-add-to-basket"
         )
         assert button_text, "button not found"
